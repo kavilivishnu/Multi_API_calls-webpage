@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Kumbh Sans','Caveat',
+    'Kaushan Script','Merienda',
+    'Knewave','Ceviche One',
+    'Joti One','Rancho',
+    'Delius','Averia Serif Libre',
+    'Mirza','Bungee Inline',
+    'Istok Web','El Messiri',
+    'Architects Daughter'
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','Kumbh Sans',
+  'Caveat','Kaushan Script',
+  'Merienda','Knewave',
+  'Ceviche One','Joti One',
+  'Rancho','Delius',
+  'Averia Serif Libre','Mirza',
+  'Bungee Inline','Istok Web',
+  'El Messiri','Architects Daughter'
+
+    monospace;
+}

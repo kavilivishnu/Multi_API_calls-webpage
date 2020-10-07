@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+  background-image: url("");
+}
+
+.Main {
+  text-align: center;
+}
+
+.backgroundpic{
+  background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/03/Earth%20Horizon573158721.jpg");
+  min-width: 100%;
+  min-height: 100%;
+  background-position: center;
+  position: fixed;
+  background-size: cover;
+}
+
+.nav {
+  background-image: url("https://mocah.org/uploads/posts/128246-stars-planets-galaxy-4k.jpg");
+  padding-top: 30px;
+  padding-bottom: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: rgb(236, 236, 236);
+  font-weight: bolder;
+  font-size: large;
+  box-shadow: 10px 10px 5px 0px rgba(73, 73, 73, 0.75);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.hover{
+  color: rgb(105, 252, 252);
+}
+
+.hover-active{
+  color: tomato;
+}
+
+.hover:hover{
+  color: darksalmon;
+  transition: .3s;
+}
+
+.form {
+  cursor: pointer;
+  border: 3px solid rgb(250, 68, 138);
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transform: .3s;
+  cursor: pointer;
+}
+
+.form:focus{
+  border-color: rgb(255, 199, 147);
+  box-shadow: 0 0 16px 0 rgb(253, 249, 249);
+}
+
+.form:hover{
+  cursor: pointer;
+  background-color: rgb(249, 185, 252);
+  transition: 1s;
+}
+
+.button1{
+  cursor: pointer;
+  border: none;
+  white-space: normal;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.button1:hover{
+  cursor: pointer;
+  background-color: salmon;
+  transition: .5s;
+  color: azure;
+}
+
+
+.button2 {
+  cursor: pointer;
+  border: none;
+  white-space: normal;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.button2:hover {
+  cursor: pointer;
+  background-color: rgba(39, 38, 38, 0.75);
+  transition: .5s;
+  color: azure;
+}
+
+.button3 {
+  cursor: pointer;
+  border: none;
+  white-space: normal;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-weight: bolder;
+  text-transform: uppercase;  
+  margin-top: 10px;
+  margin-left: 80%;
+  box-shadow: coral;
+}
+
+.button3:hover {
+  cursor: pointer;
+  background-color: rgba(93, 241, 195, 0.75);
+  transition: .5s;
+  color: rgb(238, 148, 12);
+}
+
+.button4 {
+  cursor: pointer;
+  border: none;
+  white-space: normal;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-weight: bolder;
+  text-transform: uppercase;  
+  margin-top: 10px;
+  margin-left: 80%;
+  box-shadow: coral;
+}
+
+.button4:hover {
+  cursor: pointer;
+  background-color: rgba(206, 25, 125, 0.75);
+  transition: .5s;
+  color: rgb(255, 166, 0);
+}
+
+.Home_background {
+  text-align: center;
+  background-image: url("https://images.wallpapersden.com/image/download/astronauts_66067_3840x2160.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.images {
+  text-align: center;
+  background-image: url("https://www.hdwallpapers.in/download/cool_mountains_4k-HD.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.search {
+  cursor: pointer;
+  border: 3px solid rgb(250, 68, 138);
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transform: .3s;
+  cursor: pointer;
+  text-align: center;
+  position: fixed;
+}
+
+.search:focus{
+  border-color: rgb(68, 229, 250);
+  box-shadow: 0 0 16px 0 rgb(12, 12, 12);
+  cursor: pointer;
+}
+
+.search:hover{
+  cursor: pointer;
+  background-color: rgb(252, 250, 126);
+  transition: 1s;
+}
+
+.albums{
+  background-image: url("https://i.pinimg.com/originals/04/6f/e3/046fe391a1c19949189b025d18efa610.jpg");
+  min-width: 100%;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.posts {
+  background-image: url("https://wallpaperaccess.com/full/715267.jpg");
+  min-width: 100%;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+} 
