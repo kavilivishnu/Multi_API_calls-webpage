@@ -1,4 +1,4 @@
-Link for the App - randomie.netlify.app
+Link for the App - https://randomie.netlify.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
