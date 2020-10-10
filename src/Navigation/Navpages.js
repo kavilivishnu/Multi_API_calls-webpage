@@ -5,21 +5,21 @@ function Navpages() {
     return (
         <nav className="nav">
             <ul>
-                <Link to="/Home" style={{textDecoration: "none", padding: "0 35px", marginLeft: "3%", fontFamily: 'Merienda'}} className="hover">
+                <Link to="/Home" className="hover">
                     HOME
                 </Link>
-                <Link to="/Images" style={{textDecoration: "none", padding: "0 35px", fontFamily: 'Merienda'}} className="hover">
+                <Link to="/Images" className="hover">
                     IMAGES
                 </Link>
-                <Link to="/Posts" style={{textDecoration: "none", padding: "0 35px", fontFamily: 'Merienda'}} className="hover">
+                <Link to="/Posts" className="hover">
                     POSTS
                 </Link>
-                <Link to="/Albums" style={{textDecoration: "none", padding: "0 35px", fontFamily: 'Merienda'}} className="hover">
+                <Link to="/Albums" className="hover">
                     ALBUMS
                 </Link>
             </ul>
         </nav>
     )
-}   
+}
 
 export default Navpages;

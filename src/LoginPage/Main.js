@@ -1,35 +1,35 @@
 import React, { Component } from 'react';
 import fire from '../config/fire';
 import Form from './Form';
-import Logged from './Logged';
+import Home from '../Navigation/Home';
 
 class Main extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      user : {}
+      user: {}
     }
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.authlistener();
   }
-  
+
   authlistener() {
     fire.auth().onAuthStateChanged((user) => {
-      if(user) {
-        this.setState({user})
+      if (user) {
+        this.setState({ user })
       }
       else {
-        this.setState({user : null})
+        this.setState({ user: null })
       }
     })
   }
-  render () {
-    return(
+  render() {
+    return (
       <div className="Main">
-        {this.state.user ? (<Logged />) : (<Form />)}
+        {this.state.user ? (<Home />) : (<Form />)}
       </div>
     );
   }

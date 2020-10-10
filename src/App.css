@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-image: url("");
 }
 
 .Main {
@@ -32,6 +31,10 @@
 
 .hover{
   color: rgb(105, 252, 252);
+  text-decoration: none;
+  padding: 0 35px; 
+  margin-left: 3%;
+  font-family: 'Merienda';
 }
 
 .hover-active{
@@ -69,11 +72,11 @@
 .button1{
   cursor: pointer;
   border: none;
-  white-space: normal;
   padding: 10px 40px;
   border-radius: 5px;
   font-weight: bolder;
   text-transform: uppercase;
+  font-family:'Bungee Inline'
 }
 
 .button1:hover{
@@ -103,15 +106,15 @@
 
 .button3 {
   cursor: pointer;
-  border: none;
-  white-space: normal;
   padding: 10px 40px;
+  border: none;
   border-radius: 5px;
   font-weight: bolder;
   text-transform: uppercase;  
   margin-top: 10px;
   margin-left: 80%;
   box-shadow: coral;
+  font-family:'Bungee Inline';
 }
 
 .button3:hover {
@@ -132,6 +135,7 @@
   margin-top: 10px;
   margin-left: 80%;
   box-shadow: coral;
+  font-family:'Bungee Inline';
 }
 
 .button4:hover {
@@ -163,9 +167,7 @@
   border: 3px solid rgb(250, 68, 138);
   border-radius: 4px;
   margin: 8px 0;
-  outline: none;
   padding: 8px;
-  box-sizing: border-box;
   transform: .3s;
   cursor: pointer;
   text-align: center;
@@ -201,3 +203,105 @@
   background-size: cover;
   position: absolute;
 } 
+
+@media all and (max-width : 768px) {
+  .nav {
+    background-image: url("https://mocah.org/uploads/posts/128246-stars-planets-galaxy-4k.jpg");
+    background-position: cover;
+    min-width: 100%;
+    font-weight: bolder;
+    font-size: small;
+    box-shadow: 7px 7px 15px 15px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 10px 1px 1px;
+    padding: 25px;
+    margin-left: 0px;
+  }
+
+  .hover{
+    color: rgb(105, 252, 252);
+    text-decoration: none;
+    padding: 0 1px; 
+    font-family: 'Merienda';
+    margin-right: 25px;
+    margin-left: -7px;
+  }
+
+  .form {
+    cursor: pointer;
+    border: 3px solid rgb(250, 68, 138);
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transform: .3s;
+    cursor: pointer;
+  }
+
+  .Home_background {
+    background-image: url("https://images.wallpapersden.com/image/download/astronauts_66067_3840x2160.jpg");
+    background-position: center;
+    width: 115%;
+  }
+
+  .search {
+    cursor: pointer;
+    border: 3px solid rgb(250, 68, 138);
+    border-radius: 4px;
+    margin: 8px 0;
+    padding: 8px;
+    transform: .3s;
+    cursor: pointer;
+    margin-left: -3.2cm;
+    max-width: 60%;
+  }
+
+  .button3 {
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;  
+    margin-top: 50px;
+    margin-left: 5%;
+    box-shadow: coral;
+    font-family:'Bungee Inline';
+    border: none;
+  }
+
+  .posts {
+    background-image: url("https://wallpaperaccess.com/full/715267.jpg");
+    background-position: center;
+    width: 115%;
+  } 
+
+  .button4 {
+    cursor: pointer;
+    border: none;
+    white-space: normal;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;  
+    margin-top: 70px;
+    margin-left: 5%;
+    box-shadow: coral;
+    font-family:'Bungee Inline';
+  }
+
+  .albums{
+    background-image: url("https://i.pinimg.com/originals/04/6f/e3/046fe391a1c19949189b025d18efa610.jpg");
+    background-position: center;
+    width: 115%;
+  }
+
+  .button1{
+    cursor: pointer;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family:'Bungee Inline'
+  }
+}
