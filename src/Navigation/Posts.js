@@ -47,10 +47,10 @@ export class Posts extends Component {
                     <Parallax speed={-8}>
                         <button className="button4" onClick={this.handleClick}>Show/Hide</button>
                     </Parallax>
-                    {items.map(item => (
-                        <h3 style={{ fontFamily: 'Istok Web' }}><li style={{ listStyle: "none" }} key={item.id}>
+                    {items.map((item, index) => (
+                        <h3 style={{ fontFamily: 'Istok Web' }}><li style={{ listStyle: "none" }} key={item.index}>
                             {this.state.on &&
-                                <div>
+                                <div key={item.index}>
                                     <br />
                                     <br />
                                 Name: {item.name}

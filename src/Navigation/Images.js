@@ -23,23 +23,28 @@ function Images() {
     }
 
     return (
-        <div className="images">
-            <h1 style={{ color: "white", fontFamily: 'Averia Serif Libre' }}>Searching for a cool Wallpaper ?</h1>
-            <h2 style={{ color: "white", fontFamily: 'Averia Serif Libre' }}>You came to the right place! Search out! and grab the ones you like!</h2>
-            <br />
-            <Parallax speed={-7} >
-                <input onChange={handleChange} type="text" name="photo" placeholder="search photos..." size="70" className="search" />
-            </Parallax>
-            <br />
-            <Parallax speed={-7}>
-                <button className="button3" onClick={handleSubmit} type="submit">
-                    Search
+        <>
+            <div className="images">
+                <h1 style={{ color: "white", fontFamily: 'Averia Serif Libre' }}>Searching for a cool Wallpaper ?</h1>
+                <h2 style={{ color: "white", fontFamily: 'Averia Serif Libre' }}>You came to the right place! Search out! and grab the ones you like!</h2>
+                <br />
+                <Parallax speed={-7} >
+                    <input type="text" onChange={handleChange} name="photo" placeholder="search photos..." size="70" className="search"></input>
+                </Parallax>
+                <br />
+                <Parallax speed={-7}>
+                    <button className="button3" onClick={handleSubmit} type="submit">
+                        Search
                 </button>
-            </Parallax>
-            {result.map((photo) => (
-                <img src={photo.urls.small} />
-            ))}
-        </div>
+                </Parallax>
+                {result.map((photo, index) => (
+                    <div key={index}>
+                        <img src={photo.urls.small}
+                            className="image-style" />
+                    </div>
+                ))}
+            </div>
+        </>
     );
 }
 
