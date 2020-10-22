@@ -155,13 +155,20 @@
 .images {
   text-align: center;
   background-image: url("https://www.hdwallpapers.in/download/cool_mountains_4k-HD.jpg");
-  position: fixed;
+  position: absolute;
   min-width: 100%;
   min-height: 100%;
   background-position: center;
   background-size: cover;
 }
 
+.image-style {
+  height: 20%;
+  margin: 20px auto;
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
 .search {
   cursor: pointer;
   border: 3px solid rgb(250, 68, 138);
@@ -303,5 +310,25 @@
     font-weight: bolder;
     text-transform: uppercase;
     font-family:'Bungee Inline'
+  }
+
+  .images {
+    background-image: url("https://www.hdwallpapers.in/download/cool_mountains_4k-HD.jpg");
+    position: absolute;
+    min-width: 9.9cm;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background: scroll;
+  }
+}
+
+@media all and (max-width: "1204px") {
+  .images {
+    position: absolute;
+    min-width: 10cm;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
   }
 }
